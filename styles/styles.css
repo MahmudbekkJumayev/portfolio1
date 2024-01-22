@@ -1,0 +1,356 @@
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav > h2 {
+  background: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
+  margin-left: 100px;
+  margin-top: 41px;
+}
+
+.navigation {
+  color: #a7a7a7;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 68px;
+  margin-left: 160px;
+  margin-top: 49px;
+}
+
+.navigation > li:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar-icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  right: 100px;
+  margin-top: 45px;
+  margin-left: 230px;
+}
+
+/**
+    header
+ */
+
+.container > h3 {
+  color: #ccc;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 54.167% */
+  margin-top: 215px;
+}
+
+.container > p {
+  color: #a7a7a7;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 81.25% */
+  margin-top: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 150px 100px;
+}
+
+.header-img {
+  width: 400px;
+  height: 400px;
+  flex-shrink: 0;
+  background-color: #fff;
+  border-radius: 100px 0px 100px;
+  box-shadow: 8px 8px #13b0f5, -1em 0 0.9em #e70faa;
+}
+
+.header-img > img {
+  width: 400px;
+  height: 250px;
+  margin-top: 50px;
+  object-fit: contain;
+  border-radius: 50%;
+  transform: rotate(-20deg) scale(1.5);
+}
+
+header > h3 {
+  color: #d9d9d9;
+  font-family: Poppins;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px; /* 120.69% */
+  letter-spacing: -1px;
+  width: 636px;
+}
+
+header > h3 > span {
+  background: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
+}
+
+.my-tech {
+  margin: 130px;
+  padding-right: 100px;
+}
+
+.my-tech1 {
+  display: flex;
+  align-items: center;
+  gap: 139px;
+  margin-right: 100px;
+}
+
+.my-tech2 {
+  display: flex;
+  align-items: center;
+  gap: 139px;
+  margin-top: 50px;
+}
+
+/*
+
+Project section
+
+*/
+
+.project > h3 {
+  color: #ccc;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 54.167% */
+  margin-top: 250px;
+}
+
+.project > p {
+  color: #a7a7a7;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 81.25% */
+  margin-top: 30px;
+}
+
+.project-card-item > img {
+  width: 375px;
+  height: 250px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.project-card-item > h4 {
+  color: #02adf7;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  margin: 20px 0;
+}
+
+.project-card-item > h5 {
+  color: #ccc;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-left: 30px;
+}
+
+.projects-card {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 120px;
+  gap: 115px;
+  margin-top: 50px;
+}
+
+.project-card-item {
+  width: 373px;
+  height: 420px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #363636;
+  box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+}
+
+.versel-link {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  text-decoration-line: underline;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.github-link {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  text-decoration-line: underline;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.project-link {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.telegram-img > img {
+  width: 400px;
+  height: 400px;
+  margin-left: 280px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+}
+
+.telegram-channel {
+  background-color: #917b7b75;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.telegram-text {
+  font-size: 35px;
+  color: #fff;
+  font-weight: 700;
+  margin-left: 200px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.channel-logo > img {
+  width: 250px;
+  height: 250px;
+}
+
+.tenx {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tenx > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+}
+
+.group > img {
+  width: 60px;
+  height: 60px;
+}
+
+.group > a {
+  font-size: 25px;
+  color: #13b0f5;
+  font-weight: 400;
+}
+
+/**
+ * 
+ * footer
+ */
+
+.social-media {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.social-media > h3 {
+  background: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
+  margin-left: 100px;
+}
+
+.social-media > h4 {
+  background: linear-gradient(90deg, #afd4e3 -2.06%, #e70faa 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
+  margin-left: 100px;
+}
+
+.social-footer {
+  margin-left: 350px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
