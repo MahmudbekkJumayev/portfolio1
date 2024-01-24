@@ -38,6 +38,7 @@ html {
 
 body {
   width: 1600px;
+  overflow-x: hidden;
   margin: 0 auto;
   font-family: openSans, sans-serif;
   background-color: var(--Dark-Mode);
