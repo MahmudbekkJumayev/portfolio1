@@ -41,7 +41,6 @@ body {
   margin: 0 auto;
   font-family: openSans, sans-serif;
   background-color: var(--Dark-Mode);
-  border: 1px solid #fff;
 }
 
 ul {
